@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Iscrizione ricevuta - Bianco digitale e grande formato - Demo Srl</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#264873">
+  <link rel="icon" href="assets/img/logo/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/img/logo/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/grazie.js" defer></script>
+</head>
+<body class="page-interna">
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <div class="barra-colori" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo/demo-logo.png" width="56" height="56" alt="Demo Srl – torna alla pagina dell'evento">
+      </a>
+      <nav class="site-nav" aria-label="Pagina dell'evento">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html#programma">Programma</a></li>
+          <li><a class="site-nav__link" href="index.html#come-arrivare">Come arrivare</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="contenuto">
+    <div class="wrap">
+      <!-- Visibile solo se si arriva dalla modalità prova del modulo -->
+      <p class="test-banner" id="banner-prova" hidden>[MODALITÀ PROVA – nessun dato è stato inviato]</p>
+
+      <section class="page-box on-dark accent-yellow" aria-labelledby="titolo">
+        <p class="eyebrow"><span class="rombo" aria-hidden="true"></span>Iscrizione ricevuta</p>
+        <h1 class="section-title" id="titolo"><strong>Grazie,</strong> ti aspettiamo.</h1>
+        <p class="section-lead">Abbiamo ricevuto la tua conferma per «Bianco digitale e grande formato», tre giorni di dimostrazioni dal vivo per le Arti Grafiche.</p>
+
+        <dl class="summary" id="riepilogo" hidden>
+          <div class="summary__row"><dt>Giornata</dt><dd id="r-giorno"></dd></div>
+          <div class="summary__row"><dt>Orario</dt><dd id="r-orario"></dd></div>
+          <div class="summary__row" id="r-persone-riga" hidden><dt>Persone</dt><dd id="r-persone"></dd></div>
+          <div class="summary__row">
+            <dt>Dove</dt>
+            <dd>Demo Srl, Via Degli Ulivi 8, 51019 Ponte Buggianese (PT)</dd>
+          </div>
+        </dl>
+
+        <p class="page-box__note" id="msg-conferma" hidden>Ti abbiamo inviato un'email di conferma. Non la trovi? Controlla anche nella cartella spam.</p>
+      </section>
+
+      <div class="next-steps">
+        <section class="card" aria-labelledby="cal-titolo">
+          <h2 class="card__title" id="cal-titolo">Aggiungi al calendario</h2>
+          <p>Salva la data, così non te la dimentichi.</p>
+          <ul class="cal-list" id="cal-list">
+            <li data-giorno="gio"><a class="btn btn--secondary" href="assets/ics/bianco-digitale-gio.ics" download>Giovedì 5 novembre (file .ics)</a></li>
+            <li data-giorno="ven"><a class="btn btn--secondary" href="assets/ics/bianco-digitale-ven.ics" download>Venerdì 6 novembre (file .ics)</a></li>
+            <li data-giorno="sab"><a class="btn btn--secondary" href="assets/ics/bianco-digitale-sab.ics" download>Sabato 7 novembre (file .ics)</a></li>
+          </ul>
+          <a class="link-arrow" id="gcal" href="https://calendar.google.com/" target="_blank" rel="noopener" hidden>
+            Aggiungi a Google Calendar<span class="visually-hidden"> (si apre in una nuova scheda)</span>
+          </a>
+        </section>
+
+        <section class="card" aria-labelledby="dove-titolo">
+          <h2 class="card__title" id="dove-titolo">Come arrivare</h2>
+          <p>Demo Srl, Via Degli Ulivi 8, 51019 Ponte Buggianese (PT).</p>
+          <p>Parcheggio disponibile per i partecipanti.</p>
+          <div class="card__actions">
+            <a class="btn btn--outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=Demo%20Srl%2C%20Via%20Degli%20Ulivi%208%2C%2051019%20Ponte%20Buggianese%20PT" target="_blank" rel="noopener">
+              <span>Indicazioni stradali<span class="visually-hidden"> (Google Maps, si apre in una nuova scheda)</span></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="imprevisti-titolo">
+          <h2 class="card__title" id="imprevisti-titolo">Un imprevisto?</h2>
+          <p>Non puoi più venire o vuoi cambiare giornata? Avvisaci: Tel. <a href="tel:+39057232000">0572 32000</a> · <a href="mailto:info@demo.it">info@demo.it</a></p>
+          <a class="link-arrow" href="index.html#iscrizione">
+            Iscrivi un collega
+            <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="barra-colori" aria-hidden="true"></div>
+    <div class="footer-band on-dark">
+      <div class="wrap">
+        <div class="footer-grid footer-grid--compatto">
+          <div>
+            <a class="footer-logo" href="index.html">
+              <img src="assets/img/logo/demo-logo-bianco.png" width="53" height="56" alt="Demo Srl – pagina dell'evento" loading="lazy">
+            </a>
+          </div>
+          <div>
+            <h2 class="footer-title">Contatti</h2>
+            <p>Tel. <a href="tel:+39057232000">0572 32000</a> · <a href="mailto:info@demo.it">info@demo.it</a></p>
+          </div>
+          <div>
+            <h2 class="footer-title">Informazioni</h2>
+            <ul class="footer-list">
+              <li><a href="privacy.html">Informativa privacy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <p>© 2026 Demo Srl · Via Degli Ulivi 8, 51019 Ponte Buggianese (PT) · P.IVA 01105460479 · REA PT-118681 · Cap. Soc. €&nbsp;75.600,00</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
